@@ -1,0 +1,8 @@
+server:
+  port: 8081
+  context-path: /girl
+
+girl:
+  cupSize:  A
+  age: 20
+  content: "cupSize:${girl.cupSize},age:${girl.cupSize}}"
